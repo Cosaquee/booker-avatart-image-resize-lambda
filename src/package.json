@@ -1,0 +1,14 @@
+{
+  "name": "booker-avatar",
+  "version": "1.0.0",
+  "description": "Resize avatar image",
+  "main": "main.js",
+  "repository": "https://github.com/Cosaquee/booker-avatar",
+  "author": "Karol Kozakowski",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "aws-sdk": "^2.263.1",
+    "sharp": "^0.20.4"
+  }
+}

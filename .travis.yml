@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - '8'
+script: ./lambda.sh
+deploy:
+  provider: s3
+  access_key_id: AKIAJ4CY4UZX4QTJYTSA
+  bucket: 'booker-avatar'
+  local_dir: release
+  secret_access_key:
+    secure: cA6z2rj/2LF5OhYpJeKG0Wetf6kVbicMraTxoW0d7hF1aIgtfgSu1m8P0rc0sKocWjR8+t2Pg7PMzRr8YUErjXuHN/UJSGe3tLw7/VTWvu2UO1Os2X23mRblP6pFKL5S2YLNP2pGmvu/sZ76P8jJwgR1i8kCYFPGTsBKLWycMIDWm01no3QwvqxYMdAEoZwi5SA5EJ5Fo0UDG9RaqWdcfMVENnQuGupYhiSERPOqbnFup4G2qR393jPFsxAS7EJQBlO6QH55cqKFVpkNqE0z1JW5qTLK0LJOoNLNbBjcxu4FtMIF95w58EnPrx6AzIeuJS/Fz2Oe1RDV/4bUo4MoLBCL3P9q3BqNvKOZhQhMwr4HkF7DH/GMTpGvz3izhKSsxVZQ8qXeUv646UruNBDxCigagBMZ+wjARNAAtRCdFnrUcnaWPAqGLz9LUV1wjs+ZZq0ei0p+Ib9CequyWoMpOVPxeB4/hKJ2D42hbDHyUAD+OlAVvprHqAGg+Z9Oh3HN0TxrYXblrM6RUYJ82rc7p7FG70PuXxcEJOh7rp1Gbonh+lNeLXgVk0OWdnTthv9g3HNcz6wjgl0BqjQjn+1C+NcoM7dfd69sHhnzIWIGJ5vdz6r21IHTxvWHuWgl2Io1haxUFen33dHA6hC9xPhVTi6rl3uBtUcCLFX4ahEYNT0=
