@@ -9,6 +9,6 @@
   "private": false,
   "dependencies": {
     "aws-sdk": "^2.263.1",
-    "sharp": "^0.20.4"
+    "sharp": "^0.30.5"
   }
 }
